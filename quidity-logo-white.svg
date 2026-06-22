@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="36" viewBox="0 0 140 36">
+  <rect width="36" height="36" rx="8" fill="white"/>
+  <circle cx="18" cy="18" r="10.5" fill="#111111"/>
+  <text x="48" y="26" font-family="-apple-system,BlinkMacSystemFont,Inter,sans-serif" font-size="19" font-weight="700" fill="white" letter-spacing="-0.5">Quidity</text>
+</svg>
