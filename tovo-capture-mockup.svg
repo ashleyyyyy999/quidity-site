@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Tovo capture interface">
+  <defs>
+    <filter id="cap-shadow" x="-5%" y="-5%" width="115%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="20" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+    <clipPath id="cap-clip"><rect width="800" height="520" rx="12"/></clipPath>
+  </defs>
+
+  <g filter="url(#cap-shadow)">
+    <rect width="800" height="520" rx="12" fill="#faf8f4"/>
+  </g>
+  <g clip-path="url(#cap-clip)">
+
+    <!-- Title bar -->
+    <rect width="800" height="44" fill="#f0ede8"/>
+    <line x1="0" y1="44" x2="800" y2="44" stroke="#e5e0d8" stroke-width="1"/>
+    <circle cx="20" cy="22" r="6" fill="#ff5f56"/>
+    <circle cx="40" cy="22" r="6" fill="#ffbd2e"/>
+    <circle cx="60" cy="22" r="6" fill="#27c93f"/>
+    <text x="400" y="28" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-size="13" font-weight="500" fill="#6d6552" text-anchor="middle" letter-spacing="-0.2">Tovo · Capture</text>
+
+    <!-- Main content -->
+    <rect x="0" y="44" width="800" height="476" fill="#faf8f4"/>
+
+    <!-- Paste area -->
+    <rect x="32" y="72" width="736" height="88" rx="10" fill="white" stroke="#e5e0d8" stroke-width="1.5"/>
+    <!-- Paste icon -->
+    <text x="56" y="108" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="14" fill="#bcae90">Paste anything</text>
+    <text x="56" y="128" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#d4cec4">A voice note, an email, a scattered thought. Tovo reads it.</text>
+
+    <!-- Divider -->
+    <line x1="32" y1="180" x2="768" y2="180" stroke="#e5e0d8" stroke-width="1"/>
+
+    <!-- Extracted items label -->
+    <text x="32" y="206" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" font-weight="600" fill="#978c74" letter-spacing="1.2">EXTRACTED FROM YOUR PASTE</text>
+
+    <!-- Item 1 - animating in -->
+    <rect x="32" y="218" width="736" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
+    <text x="60" y="241" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Call dentist</text>
+    <text x="60" y="260" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">Task · from your voice note</text>
+    <!-- Green check -->
+    <circle cx="740" cy="247" r="9" fill="none" stroke="#22c55e" stroke-width="2"/>
+    <polyline points="735,247 739,251 746,243" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Item 2 -->
+    <rect x="32" y="282" width="736" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
+    <text x="60" y="305" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Jordan (lawyer)</text>
+    <text x="60" y="324" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">Person · follow-up on contract</text>
+    <circle cx="740" cy="311" r="9" fill="none" stroke="#22c55e" stroke-width="2"/>
+    <polyline points="735,311 739,315 746,307" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Item 3 -->
+    <rect x="32" y="346" width="736" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
+    <text x="60" y="369" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Side project launch</text>
+    <text x="60" y="388" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">Goal · by end of month</text>
+    <circle cx="740" cy="375" r="9" fill="none" stroke="#22c55e" stroke-width="2"/>
+    <polyline points="735,375 739,379 746,371" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Item 4 - still processing -->
+    <rect x="32" y="410" width="736" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
+    <text x="60" y="433" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Read Atomic Habits</text>
+    <text x="60" y="452" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">Goal · chapter 4 next</text>
+    <!-- dash (processing) -->
+    <line x1="735" y1="439" x2="747" y2="439" stroke="#bcae90" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Window border -->
+    <rect width="800" height="520" rx="12" fill="none" stroke="#e0dbd3" stroke-width="1"/>
+  </g>
+</svg>

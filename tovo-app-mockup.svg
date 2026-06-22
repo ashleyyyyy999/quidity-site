@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img" aria-label="Tovo morning brief interface">
+  <defs>
+    <filter id="win-shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="24" flood-color="#000" flood-opacity="0.18"/>
+    </filter>
+    <clipPath id="win-clip"><rect width="960" height="620" rx="12"/></clipPath>
+  </defs>
+
+  <!-- Window -->
+  <g filter="url(#win-shadow)">
+    <rect width="960" height="620" rx="12" fill="#faf8f4"/>
+  </g>
+  <g clip-path="url(#win-clip)">
+
+    <!-- Title bar -->
+    <rect width="960" height="44" fill="#f0ede8"/>
+    <line x1="0" y1="44" x2="960" y2="44" stroke="#e5e0d8" stroke-width="1"/>
+    <!-- Traffic lights -->
+    <circle cx="20" cy="22" r="6" fill="#ff5f56"/>
+    <circle cx="40" cy="22" r="6" fill="#ffbd2e"/>
+    <circle cx="60" cy="22" r="6" fill="#27c93f"/>
+    <!-- Window title -->
+    <text x="480" y="28" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-size="13" font-weight="500" fill="#6d6552" text-anchor="middle" letter-spacing="-0.2">Tovo</text>
+
+    <!-- Left sidebar -->
+    <rect x="0" y="44" width="200" height="576" fill="#f4f1eb"/>
+    <line x1="200" y1="44" x2="200" y2="620" stroke="#e5e0d8" stroke-width="1"/>
+
+    <!-- Sidebar logo -->
+    <rect x="16" y="64" width="24" height="24" rx="5" fill="#111111"/>
+    <circle cx="28" cy="76" r="7" fill="white"/>
+    <text x="48" y="81" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-size="14" font-weight="700" fill="#111111" letter-spacing="-0.3">Quidity</text>
+
+    <!-- Sidebar nav items -->
+    <!-- Brief (active) -->
+    <rect x="8" y="104" width="184" height="32" rx="6" fill="#111111" opacity="0.08"/>
+    <text x="40" y="125" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="600" fill="#1c1813">Brief</text>
+    <!-- dot indicator -->
+    <circle cx="26" cy="121" r="4" fill="#22c55e"/>
+
+    <text x="40" y="162" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" fill="#6d6552">Objects</text>
+    <circle cx="26" cy="158" r="4" fill="#bcae90"/>
+
+    <text x="40" y="196" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" fill="#6d6552">Capture</text>
+    <circle cx="26" cy="192" r="4" fill="#bcae90"/>
+
+    <text x="40" y="230" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" fill="#6d6552">Calendar</text>
+    <circle cx="26" cy="226" r="4" fill="#bcae90"/>
+
+    <!-- Sidebar divider -->
+    <line x1="16" y1="252" x2="184" y2="252" stroke="#e5e0d8" stroke-width="1"/>
+
+    <!-- Settings -->
+    <text x="40" y="280" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" fill="#6d6552">Settings</text>
+    <circle cx="26" cy="276" r="4" fill="#bcae90"/>
+
+    <!-- Main content area -->
+    <rect x="200" y="44" width="760" height="576" fill="#faf8f4"/>
+
+    <!-- Content padding area -->
+    <!-- Morning greeting -->
+    <text x="304" y="104" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-size="28" font-weight="600" fill="#1c1813" letter-spacing="-0.6">Good morning.</text>
+    <text x="304" y="130" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="14" fill="#978c74">Monday, June 23 · Your brief is ready.</text>
+
+    <!-- Divider -->
+    <line x1="304" y1="150" x2="880" y2="150" stroke="#e5e0d8" stroke-width="1"/>
+
+    <!-- CHANGED section -->
+    <text x="304" y="178" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" font-weight="600" fill="#978c74" letter-spacing="1.2">CHANGED SINCE YESTERDAY</text>
+
+    <!-- Item 1 -->
+    <rect x="304" y="190" width="560" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
+    <rect x="304" y="190" width="3" height="56" rx="1.5" fill="#f59e0b"/>
+    <text x="322" y="210" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Side project launch</text>
+    <rect x="450" y="199" width="80" height="18" rx="4" fill="#f4f1eb"/>
+    <text x="490" y="212" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" fill="#978c74" text-anchor="middle">Goal</text>
+    <text x="322" y="232" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">Moved from "this week" to next Monday</text>
+
+    <!-- Item 2 -->
+    <rect x="304" y="254" width="560" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
+    <rect x="304" y="254" width="3" height="56" rx="1.5" fill="#22c55e"/>
+    <text x="322" y="274" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Jordan (lawyer)</text>
+    <rect x="434" y="263" width="80" height="18" rx="4" fill="#f4f1eb"/>
+    <text x="474" y="276" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" fill="#978c74" text-anchor="middle">Person</text>
+    <text x="322" y="296" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">Email arrived · contract revision approved</text>
+
+    <!-- NEEDS ATTENTION section -->
+    <text x="304" y="340" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" font-weight="600" fill="#978c74" letter-spacing="1.2">NEEDS YOUR ATTENTION</text>
+
+    <!-- Item 3 -->
+    <rect x="304" y="352" width="560" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
+    <rect x="304" y="352" width="3" height="56" rx="1.5" fill="#ef4444"/>
+    <text x="322" y="372" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Q3 planning doc</text>
+    <rect x="434" y="361" width="60" height="18" rx="4" fill="#fef2f2"/>
+    <text x="464" y="374" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">Overdue</text>
+    <text x="322" y="394" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">Due 2 days ago · not started</text>
+
+    <!-- Item 4 -->
+    <rect x="304" y="416" width="560" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
+    <rect x="304" y="416" width="3" height="56" rx="1.5" fill="#f59e0b"/>
+    <text x="322" y="436" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Call dentist</text>
+    <rect x="404" y="425" width="60" height="18" rx="4" fill="#f4f1eb"/>
+    <text x="434" y="438" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" fill="#978c74" text-anchor="middle">Task</text>
+    <text x="322" y="458" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">From voice note · rescheduled 3 times</text>
+
+    <!-- ON TRACK section -->
+    <text x="304" y="500" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" font-weight="600" fill="#978c74" letter-spacing="1.2">ON TRACK</text>
+
+    <!-- Item 5 -->
+    <rect x="304" y="512" width="560" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
+    <rect x="304" y="512" width="3" height="56" rx="1.5" fill="#22c55e"/>
+    <text x="322" y="532" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Read Atomic Habits</text>
+    <rect x="458" y="521" width="60" height="18" rx="4" fill="#f4f1eb"/>
+    <text x="488" y="534" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" fill="#978c74" text-anchor="middle">Goal</text>
+    <text x="322" y="554" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">Chapter 3 done · chapter 4 up next</text>
+
+    <!-- Window border -->
+    <rect width="960" height="620" rx="12" fill="none" stroke="#e0dbd3" stroke-width="1"/>
+  </g>
+</svg>

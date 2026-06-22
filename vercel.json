@@ -12,6 +12,7 @@
   ],
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
+    { "source": "/what-we-are", "destination": "/what-we-are.html" },
     { "source": "/((?!.*\\.).*)", "destination": "/index.html" }
   ]
 }
