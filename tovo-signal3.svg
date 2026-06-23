@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" fill="none">
+  <rect width="520" height="120" rx="12" fill="#1a1919"/>
+  <text font-family="-apple-system,sans-serif" font-size="10" fill="rgba(255,255,255,0.38)" x="20" y="26">Tovo Capture</text>
+  <text font-family="Georgia,'Times New Roman',serif" font-size="15" font-weight="700" fill="white" x="20" y="52">What's on your mind?</text>
+  <rect x="20" y="60" width="380" height="38" rx="6" fill="rgba(255,255,255,0.06)"/>
+  <text font-family="-apple-system,sans-serif" font-size="11.5" fill="rgba(255,255,255,0.5)" x="30" y="78">Jordan called about the IP clause...</text>
+  <rect x="20" y="104" width="64" height="16" rx="8" fill="rgba(124,139,58,0.35)"/>
+  <text font-family="-apple-system,sans-serif" font-size="9" fill="white" x="28" y="116">Jordan</text>
+  <rect x="90" y="104" width="60" height="16" rx="8" fill="rgba(30,58,138,0.35)"/>
+  <text font-family="-apple-system,sans-serif" font-size="9" fill="white" x="98" y="116">IP clause</text>
+  <rect x="156" y="104" width="52" height="16" rx="8" fill="rgba(120,53,15,0.35)"/>
+  <text font-family="-apple-system,sans-serif" font-size="9" fill="white" x="164" y="116">Friday</text>
+  <rect x="430" y="100" width="72" height="20" rx="6" fill="#7c8b3a"/>
+  <text font-family="-apple-system,sans-serif" font-size="11" font-weight="600" fill="white" x="438" y="114">Save →</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg" fill="none" style="background:#f8f5f0;">
+  <rect width="680" height="420" fill="#f8f5f0"/>
+
+  <!-- Network constellation: 6 circles connected by wobbly lines, arrows on some -->
+
+  <!-- Center node (larger) -->
+  <path d="M338,208 C338,192 348,180 360,182 C372,184 380,196 378,210 C376,224 364,232 352,228 C340,224 338,220 338,208"
+        stroke="#2d4a1e" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Node 1 - top left -->
+  <path d="M174,138 C174,126 182,118 191,120 C200,122 205,131 202,141 C199,151 190,156 182,152 C174,148 174,144 174,138"
+        stroke="#2d4a1e" stroke-width="2.0" stroke-linecap="round"/>
+
+  <!-- Node 2 - top right -->
+  <path d="M484,128 C484,116 492,108 501,110 C510,112 515,121 512,131 C509,141 500,146 492,142 C484,138 484,134 484,128"
+        stroke="#2d4a1e" stroke-width="2.0" stroke-linecap="round"/>
+
+  <!-- Node 3 - bottom left -->
+  <path d="M148,298 C148,288 155,281 163,283 C171,285 175,293 172,302 C169,311 161,315 154,312 C147,309 148,304 148,298"
+        stroke="#2d4a1e" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Node 4 - bottom right -->
+  <path d="M510,292 C510,282 518,275 526,277 C534,279 538,287 535,296 C532,305 524,309 517,306 C510,303 510,298 510,292"
+        stroke="#2d4a1e" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Node 5 - far left -->
+  <path d="M90,216 C90,207 97,201 104,203 C111,205 115,212 112,220 C109,228 102,232 96,228 C90,224 90,220 90,216"
+        stroke="#2d4a1e" stroke-width="1.7" stroke-linecap="round"/>
+
+  <!-- Node 6 - far right -->
+  <path d="M578,210 C578,201 585,195 592,197 C599,199 603,206 600,214 C597,222 590,226 584,222 C578,218 578,214 578,210"
+        stroke="#2d4a1e" stroke-width="1.7" stroke-linecap="round"/>
+
+  <!-- Connection: center to top-left (with arrow) -->
+  <path d="M342,190 C312,174 268,162 204,144" stroke="#2d4a1e" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M218,137 C210,141 204,146 208,155" stroke="#2d4a1e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Connection: center to top-right -->
+  <path d="M374,192 C408,174 448,155 484,135" stroke="#2d4a1e" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Connection: center to bottom-left (with arrow) -->
+  <path d="M344,226 C300,252 238,276 172,296" stroke="#2d4a1e" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M185,290 C177,293 170,298 174,308" stroke="#2d4a1e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Connection: center to bottom-right -->
+  <path d="M370,224 C416,252 462,272 512,290" stroke="#2d4a1e" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Connection: center to far-left (with arrow) -->
+  <path d="M340,208 C290,212 220,216 116,218" stroke="#2d4a1e" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M130,211 C122,215 115,219 120,228" stroke="#2d4a1e" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Connection: center to far-right -->
+  <path d="M376,210 C428,210 498,210 580,212" stroke="#2d4a1e" stroke-width="1.4" stroke-linecap="round"/>
+
+  <!-- Cross connection: node1 to node3 (diagonal) -->
+  <path d="M180,155 C172,202 164,248 160,285" stroke="#2d4a1e" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Cross connection: node2 to node4 (diagonal) -->
+  <path d="M500,145 C508,194 518,244 524,278" stroke="#2d4a1e" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+</svg>

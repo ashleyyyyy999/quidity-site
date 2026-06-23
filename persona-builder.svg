@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" fill="none">
+  <rect width="400" height="480" fill="#f5f2ec"/>
+  <path d="M200 76 L244 150 L156 150 Z" stroke="#2d4a1e" stroke-width="2.5" fill="#faf6ef"/>
+  <line x1="200" y1="150" x2="200" y2="288" stroke="#2d4a1e" stroke-width="3" stroke-linecap="round"/>
+  <line x1="162" y1="202" x2="238" y2="198" stroke="#2d4a1e" stroke-width="3" stroke-linecap="round"/>
+  <line x1="200" y1="288" x2="180" y2="368" stroke="#2d4a1e" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="200" y1="288" x2="220" y2="368" stroke="#2d4a1e" stroke-width="2.8" stroke-linecap="round"/>
+  <rect x="105" y="260" width="34" height="34" rx="3" stroke="#2d4a1e" stroke-width="1.8" fill="none" opacity="0.7"/>
+  <rect x="143" y="260" width="34" height="34" rx="3" stroke="#2d4a1e" stroke-width="1.8" fill="none" opacity="0.7"/>
+  <rect x="105" y="298" width="34" height="34" rx="3" stroke="#2d4a1e" stroke-width="1.8" fill="none" opacity="0.7"/>
+  <rect x="143" y="298" width="34" height="34" rx="3" stroke="#2d4a1e" stroke-width="2" fill="#e8f0e4" opacity="0.7"/>
+  <path d="M152 315 L160 323 L174 308" stroke="#2d4a1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

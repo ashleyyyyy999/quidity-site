@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 400" width="340" height="400">
+<defs>
+  <radialGradient id="g2" cx="50%" cy="75%" r="70%">
+    <stop offset="0%" stop-color="#FFD7F0" stop-opacity="0.5"/>
+    <stop offset="60%" stop-color="#FFEED8" stop-opacity="0.2"/>
+    <stop offset="100%" stop-color="#D0B2FF" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="sf2"><feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#FFD7F0" flood-opacity="0.25"/></filter>
+  <clipPath id="win2"><rect x="20" y="24" width="300" height="350" rx="12"/></clipPath>
+</defs>
+<rect width="340" height="400" fill="url(#g2)"/>
+<g filter="url(#sf2)">
+<rect x="20" y="24" width="300" height="350" rx="12" fill="#FEFEFE" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
+<rect x="20" y="24" width="300" height="40" rx="12" fill="#F5F5F5"/>
+<rect x="20" y="52" width="300" height="12" rx="0" fill="#F5F5F5"/>
+<circle cx="42" cy="44" r="6" fill="#FF5F57"/>
+<circle cx="62" cy="44" r="6" fill="#FEBC2E"/>
+<circle cx="82" cy="44" r="6" fill="#28C840"/>
+<text x="170" y="48" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="rgba(0,0,0,0.35)" text-anchor="middle">Tovo Capture</text>
+<rect x="30" y="76" width="280" height="38" rx="8" fill="#F0F0F0" stroke="rgba(0,0,0,0.06)" stroke-width="1"/>
+<text x="50" y="99" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" fill="rgba(0,0,0,0.35)">Capture a note, task, or event...</text>
+<text x="290" y="99" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="18" fill="rgba(0,0,0,0.25)" text-anchor="middle">⌘</text>
+<line x1="30" y1="128" x2="310" y2="128" stroke="rgba(0,0,0,0.06)" stroke-width="1"/>
+<text x="30" y="148" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="10" fill="rgba(0,0,0,0.3)" letter-spacing="1">RECENT CAPTURES</text>
+<rect x="30" y="158" width="280" height="60" rx="8" fill="white" stroke="rgba(0,0,0,0.06)" stroke-width="1"/>
+<text x="48" y="178" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12.5" font-weight="500" fill="rgba(0,0,0,0.8)">Call with Felix — needs intro to</text>
+<text x="48" y="196" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12.5" fill="rgba(0,0,0,0.5)">Margaux Veil team</text>
+<rect x="48" y="203" width="48" height="14" rx="3" fill="rgba(232,64,13,0.1)"/>
+<text x="72" y="213" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="9" fill="#E8400D" text-anchor="middle">Felix A.</text>
+<rect x="102" y="203" width="38" height="14" rx="3" fill="rgba(74,144,232,0.1)"/>
+<text x="121" y="213" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="9" fill="#4A90E8" text-anchor="middle">Intro</text>
+<rect x="30" y="228" width="280" height="60" rx="8" fill="white" stroke="rgba(0,0,0,0.06)" stroke-width="1"/>
+<text x="48" y="248" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12.5" font-weight="500" fill="rgba(0,0,0,0.8)">Q3 planning meeting pushed</text>
+<text x="48" y="266" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12.5" fill="rgba(0,0,0,0.5)">to next Friday</text>
+<rect x="48" y="273" width="46" height="14" rx="3" fill="rgba(40,200,64,0.1)"/>
+<text x="71" y="283" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="9" fill="#28A840" text-anchor="middle">Meeting</text>
+<rect x="100" y="273" width="26" height="14" rx="3" fill="rgba(74,144,232,0.1)"/>
+<text x="113" y="283" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="9" fill="#4A90E8" text-anchor="middle">Q3</text>
+<rect x="30" y="298" width="280" height="60" rx="8" fill="white" stroke="rgba(0,0,0,0.06)" stroke-width="1"/>
+<text x="48" y="318" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12.5" font-weight="500" fill="rgba(0,0,0,0.8)">Follow up with Léa</text>
+<text x="48" y="336" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12.5" fill="rgba(0,0,0,0.5)">re: contract renewal terms</text>
+<rect x="48" y="343" width="40" height="14" rx="3" fill="rgba(232,64,13,0.1)"/>
+<text x="68" y="353" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="9" fill="#E8400D" text-anchor="middle">Léa M.</text>
+<rect x="94" y="343" width="46" height="14" rx="3" fill="rgba(255,180,0,0.15)"/>
+<text x="117" y="353" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="9" fill="#D4960A" text-anchor="middle">Contract</text>
+<text x="290" y="375" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="rgba(0,0,0,0.25)" text-anchor="end">3 today · 24 this week</text>
+</g>
+</svg>

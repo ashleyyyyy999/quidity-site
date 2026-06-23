@@ -1,120 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img" aria-label="Tovo morning brief interface">
-  <defs>
-    <filter id="win-shadow" x="-5%" y="-5%" width="110%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="24" flood-color="#000" flood-opacity="0.18"/>
-    </filter>
-    <clipPath id="win-clip"><rect width="960" height="620" rx="12"/></clipPath>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 760" fill="none">
+  <!-- App shell -->
+  <rect width="1240" height="760" rx="14" fill="#f5f4f0"/>
 
-  <!-- Window -->
-  <g filter="url(#win-shadow)">
-    <rect width="960" height="620" rx="12" fill="#faf8f4"/>
-  </g>
-  <g clip-path="url(#win-clip)">
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="216" height="760" rx="14" fill="#111"/>
+  <rect x="108" y="0" width="108" height="760" fill="#111"/>
 
-    <!-- Title bar -->
-    <rect width="960" height="44" fill="#f0ede8"/>
-    <line x1="0" y1="44" x2="960" y2="44" stroke="#e5e0d8" stroke-width="1"/>
-    <!-- Traffic lights -->
-    <circle cx="20" cy="22" r="6" fill="#ff5f56"/>
-    <circle cx="40" cy="22" r="6" fill="#ffbd2e"/>
-    <circle cx="60" cy="22" r="6" fill="#27c93f"/>
-    <!-- Window title -->
-    <text x="480" y="28" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-size="13" font-weight="500" fill="#6d6552" text-anchor="middle" letter-spacing="-0.2">Tovo</text>
+  <!-- Sidebar logo -->
+  <rect x="20" y="20" width="30" height="30" rx="7" fill="white"/>
+  <rect x="26" y="26" width="18" height="18" rx="3.5" fill="#111"/>
+  <text font-family="Georgia,'Times New Roman',serif" font-size="13" font-weight="700" fill="white" x="58" y="40">Tovo</text>
 
-    <!-- Left sidebar -->
-    <rect x="0" y="44" width="200" height="576" fill="#f4f1eb"/>
-    <line x1="200" y1="44" x2="200" y2="620" stroke="#e5e0d8" stroke-width="1"/>
+  <!-- Sidebar nav -->
+  <rect x="10" y="66" width="196" height="32" rx="8" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="28" cy="82" r="4.5" fill="#7c8b3a"/>
+  <text font-family="-apple-system,sans-serif" font-size="13" font-weight="600" fill="white" x="42" y="87">Brief</text>
+  <circle cx="28" cy="118" r="4" fill="rgba(255,255,255,0.2)"/>
+  <text font-family="-apple-system,sans-serif" font-size="12.5" fill="rgba(255,255,255,0.45)" x="42" y="122">Objects</text>
+  <circle cx="28" cy="148" r="4" fill="rgba(255,255,255,0.2)"/>
+  <text font-family="-apple-system,sans-serif" font-size="12.5" fill="rgba(255,255,255,0.45)" x="42" y="152">Capture</text>
+  <circle cx="28" cy="178" r="4" fill="rgba(255,255,255,0.2)"/>
+  <text font-family="-apple-system,sans-serif" font-size="12.5" fill="rgba(255,255,255,0.45)" x="42" y="182">Calendar</text>
+  <circle cx="28" cy="208" r="4" fill="rgba(255,255,255,0.2)"/>
+  <text font-family="-apple-system,sans-serif" font-size="12.5" fill="rgba(255,255,255,0.45)" x="42" y="212">Inbox</text>
 
-    <!-- Sidebar logo -->
-    <rect x="16" y="64" width="24" height="24" rx="5" fill="#111111"/>
-    <circle cx="28" cy="76" r="7" fill="white"/>
-    <text x="48" y="81" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-size="14" font-weight="700" fill="#111111" letter-spacing="-0.3">Quidity</text>
+  <!-- Sidebar user avatar -->
+  <circle cx="108" cy="726" r="16" fill="rgba(255,255,255,0.1)"/>
+  <text font-family="-apple-system,sans-serif" font-size="12" fill="rgba(255,255,255,0.5)" x="96" y="730">L</text>
 
-    <!-- Sidebar nav items -->
-    <!-- Brief (active) -->
-    <rect x="8" y="104" width="184" height="32" rx="6" fill="#111111" opacity="0.08"/>
-    <text x="40" y="125" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="600" fill="#1c1813">Brief</text>
-    <!-- dot indicator -->
-    <circle cx="26" cy="121" r="4" fill="#22c55e"/>
+  <!-- Main content area -->
+  <rect x="216" y="0" width="1024" height="760" fill="#f5f4f0"/>
+  <rect x="216" y="0" width="1024" height="760" rx="0" fill="none"/>
 
-    <text x="40" y="162" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" fill="#6d6552">Objects</text>
-    <circle cx="26" cy="158" r="4" fill="#bcae90"/>
+  <!-- Top bar -->
+  <rect x="216" y="0" width="1024" height="52" fill="rgba(245,244,240,0.95)"/>
+  <line x1="216" y1="52" x2="1240" y2="52" stroke="#e0deda" stroke-width="1"/>
+  <text font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="600" fill="#111" x="248" y="32">Morning Brief</text>
+  <text font-family="-apple-system,sans-serif" font-size="11" fill="#9c9a96" x="248" y="46">Monday · June 23</text>
 
-    <text x="40" y="196" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" fill="#6d6552">Capture</text>
-    <circle cx="26" cy="192" r="4" fill="#bcae90"/>
+  <!-- Good morning heading -->
+  <text font-family="Georgia,'Times New Roman',serif" font-size="38" font-weight="400" fill="#111111" x="248" y="118">Good morning.</text>
+  <text font-family="-apple-system,sans-serif" font-size="13" fill="#9c9a96" x="250" y="143">3 things changed since yesterday.</text>
 
-    <text x="40" y="230" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" fill="#6d6552">Calendar</text>
-    <circle cx="26" cy="226" r="4" fill="#bcae90"/>
+  <!-- Section label: TODAY -->
+  <text font-family="-apple-system,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5" fill="#b1b1af" x="250" y="178">TODAY</text>
+  <line x1="250" y1="184" x2="740" y2="184" stroke="#e0deda" stroke-width="1"/>
 
-    <!-- Sidebar divider -->
-    <line x1="16" y1="252" x2="184" y2="252" stroke="#e5e0d8" stroke-width="1"/>
+  <!-- Card 1 -->
+  <rect x="250" y="194" width="480" height="62" rx="8" fill="white"/>
+  <rect x="250" y="194" width="3" height="62" rx="1.5" fill="#e8400d"/>
+  <text font-family="-apple-system,sans-serif" font-size="13" font-weight="600" fill="#111" x="264" y="215">Q3 planning doc updated</text>
+  <text font-family="-apple-system,sans-serif" font-size="12" fill="#6d6c6b" x="264" y="233">Maya added 3 slides · you're mentioned</text>
+  <text font-family="-apple-system,sans-serif" font-size="11" fill="#b1b1af" x="264" y="249">Document · 2h ago</text>
 
-    <!-- Settings -->
-    <text x="40" y="280" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" fill="#6d6552">Settings</text>
-    <circle cx="26" cy="276" r="4" fill="#bcae90"/>
+  <!-- Card 2 -->
+  <rect x="250" y="264" width="480" height="62" rx="8" fill="white"/>
+  <rect x="250" y="264" width="3" height="62" rx="1.5" fill="#7c8b3a"/>
+  <text font-family="-apple-system,sans-serif" font-size="13" font-weight="600" fill="#111" x="264" y="285">Side project: landing page</text>
+  <text font-family="-apple-system,sans-serif" font-size="12" fill="#6d6c6b" x="264" y="303">No update since Friday · flagged</text>
+  <text font-family="-apple-system,sans-serif" font-size="11" fill="#b1b1af" x="264" y="319">Thread · 3d ago</text>
 
-    <!-- Main content area -->
-    <rect x="200" y="44" width="760" height="576" fill="#faf8f4"/>
+  <!-- Section label: PEOPLE -->
+  <text font-family="-apple-system,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5" fill="#b1b1af" x="250" y="358">PEOPLE</text>
+  <line x1="250" y1="364" x2="740" y2="364" stroke="#e0deda" stroke-width="1"/>
 
-    <!-- Content padding area -->
-    <!-- Morning greeting -->
-    <text x="304" y="104" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-size="28" font-weight="600" fill="#1c1813" letter-spacing="-0.6">Good morning.</text>
-    <text x="304" y="130" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="14" fill="#978c74">Monday, June 23 · Your brief is ready.</text>
+  <!-- Person card -->
+  <rect x="250" y="374" width="480" height="62" rx="8" fill="white"/>
+  <rect x="250" y="374" width="3" height="62" rx="1.5" fill="#7c8b3a"/>
+  <circle cx="272" cy="405" r="14" fill="#e2ddfd"/>
+  <text font-family="Georgia,'Times New Roman',serif" font-size="12" font-weight="700" fill="#10054d" x="267" y="409">J</text>
+  <text font-family="-apple-system,sans-serif" font-size="13" font-weight="600" fill="#111" x="292" y="396">Jordan (lawyer)</text>
+  <text font-family="-apple-system,sans-serif" font-size="12" fill="#6d6c6b" x="292" y="413">Contract revision approved · email</text>
+  <text font-family="-apple-system,sans-serif" font-size="11" fill="#b1b1af" x="292" y="429">Legal · 4h ago</text>
 
-    <!-- Divider -->
-    <line x1="304" y1="150" x2="880" y2="150" stroke="#e5e0d8" stroke-width="1"/>
+  <!-- Right column panel -->
+  <rect x="780" y="64" width="420" height="640" rx="10" fill="white"/>
 
-    <!-- CHANGED section -->
-    <text x="304" y="178" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" font-weight="600" fill="#978c74" letter-spacing="1.2">CHANGED SINCE YESTERDAY</text>
+  <!-- Capture header -->
+  <text font-family="-apple-system,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5" fill="#b1b1af" x="806" y="98">CAPTURE</text>
+  <line x1="806" y1="104" x2="1174" y2="104" stroke="#e0deda" stroke-width="1"/>
+  <text font-family="Georgia,'Times New Roman',serif" font-size="18" font-weight="400" fill="#111" x="806" y="134">What's on your mind?</text>
+  <rect x="806" y="145" width="358" height="1" fill="#ecebea"/>
+  <rect x="806" y="158" width="56" height="22" rx="11" fill="#f4f3ef"/>
+  <text font-family="-apple-system,sans-serif" font-size="11" fill="#6d6c6b" x="815" y="173">Jordan</text>
+  <rect x="870" y="158" width="64" height="22" rx="11" fill="#f4f3ef"/>
+  <text font-family="-apple-system,sans-serif" font-size="11" fill="#6d6c6b" x="879" y="173">IP clause</text>
+  <rect x="942" y="158" width="50" height="22" rx="11" fill="#f4f3ef"/>
+  <text font-family="-apple-system,sans-serif" font-size="11" fill="#6d6c6b" x="951" y="173">Friday</text>
+  <rect x="1098" y="190" width="66" height="28" rx="7" fill="#7c8b3a"/>
+  <text font-family="-apple-system,sans-serif" font-size="12" font-weight="600" fill="white" x="1112" y="208">Save →</text>
 
-    <!-- Item 1 -->
-    <rect x="304" y="190" width="560" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
-    <rect x="304" y="190" width="3" height="56" rx="1.5" fill="#f59e0b"/>
-    <text x="322" y="210" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Side project launch</text>
-    <rect x="450" y="199" width="80" height="18" rx="4" fill="#f4f1eb"/>
-    <text x="490" y="212" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" fill="#978c74" text-anchor="middle">Goal</text>
-    <text x="322" y="232" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">Moved from "this week" to next Monday</text>
+  <!-- Floating notification 1 -->
+  <rect x="248" y="490" width="320" height="74" rx="10" fill="#1a1919"/>
+  <text font-family="-apple-system,sans-serif" font-size="10" fill="rgba(255,255,255,0.4)" x="268" y="512">Tovo · Brief update</text>
+  <text font-family="Georgia,'Times New Roman',serif" font-size="15" fill="white" x="268" y="535">Good morning, Lorenzo.</text>
+  <text font-family="-apple-system,sans-serif" font-size="11.5" fill="rgba(255,255,255,0.55)" x="268" y="553">3 things changed since yesterday.</text>
 
-    <!-- Item 2 -->
-    <rect x="304" y="254" width="560" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
-    <rect x="304" y="254" width="3" height="56" rx="1.5" fill="#22c55e"/>
-    <text x="322" y="274" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Jordan (lawyer)</text>
-    <rect x="434" y="263" width="80" height="18" rx="4" fill="#f4f1eb"/>
-    <text x="474" y="276" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" fill="#978c74" text-anchor="middle">Person</text>
-    <text x="322" y="296" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">Email arrived · contract revision approved</text>
-
-    <!-- NEEDS ATTENTION section -->
-    <text x="304" y="340" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" font-weight="600" fill="#978c74" letter-spacing="1.2">NEEDS YOUR ATTENTION</text>
-
-    <!-- Item 3 -->
-    <rect x="304" y="352" width="560" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
-    <rect x="304" y="352" width="3" height="56" rx="1.5" fill="#ef4444"/>
-    <text x="322" y="372" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Q3 planning doc</text>
-    <rect x="434" y="361" width="60" height="18" rx="4" fill="#fef2f2"/>
-    <text x="464" y="374" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">Overdue</text>
-    <text x="322" y="394" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">Due 2 days ago · not started</text>
-
-    <!-- Item 4 -->
-    <rect x="304" y="416" width="560" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
-    <rect x="304" y="416" width="3" height="56" rx="1.5" fill="#f59e0b"/>
-    <text x="322" y="436" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Call dentist</text>
-    <rect x="404" y="425" width="60" height="18" rx="4" fill="#f4f1eb"/>
-    <text x="434" y="438" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" fill="#978c74" text-anchor="middle">Task</text>
-    <text x="322" y="458" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">From voice note · rescheduled 3 times</text>
-
-    <!-- ON TRACK section -->
-    <text x="304" y="500" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" font-weight="600" fill="#978c74" letter-spacing="1.2">ON TRACK</text>
-
-    <!-- Item 5 -->
-    <rect x="304" y="512" width="560" height="56" rx="8" fill="white" stroke="#e5e0d8" stroke-width="1"/>
-    <rect x="304" y="512" width="3" height="56" rx="1.5" fill="#22c55e"/>
-    <text x="322" y="532" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="500" fill="#1c1813">Read Atomic Habits</text>
-    <rect x="458" y="521" width="60" height="18" rx="4" fill="#f4f1eb"/>
-    <text x="488" y="534" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="10" fill="#978c74" text-anchor="middle">Goal</text>
-    <text x="322" y="554" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="12" fill="#6d6552">Chapter 3 done · chapter 4 up next</text>
-
-    <!-- Window border -->
-    <rect width="960" height="620" rx="12" fill="none" stroke="#e0dbd3" stroke-width="1"/>
-  </g>
+  <!-- Floating notification 2 -->
+  <rect x="268" y="582" width="296" height="66" rx="10" fill="#1a1919"/>
+  <text font-family="-apple-system,sans-serif" font-size="10" fill="rgba(255,255,255,0.4)" x="286" y="602">Jordan (lawyer)</text>
+  <text font-family="Georgia,'Times New Roman',serif" font-size="14" fill="white" x="286" y="622">Email arrived</text>
+  <text font-family="-apple-system,sans-serif" font-size="11" fill="rgba(255,255,255,0.5)" x="286" y="639">Contract revision approved</text>
 </svg>

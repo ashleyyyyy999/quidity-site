@@ -1,0 +1,52 @@
+<svg viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg" fill="none" style="background:#f8f5f0;">
+  <rect width="680" height="420" fill="#f8f5f0"/>
+
+  <!-- Cloud shape (left) — bumpy top, flat-ish bottom, doesn't fully close -->
+  <path d="M72,270 C72,270 68,242 82,230 C88,226 96,226 103,230
+           C106,216 116,206 130,205 C144,204 154,213 157,226
+           C163,218 173,214 184,216 C198,218 207,230 206,244
+           C214,244 222,252 222,262 C222,272 214,278 206,278
+           L80,278 C75,278 72,274 72,270"
+        stroke="#2d4a1e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arrow from cloud to building (slightly wobbly) -->
+  <path d="M230,258 C260,256 278,252 296,250" stroke="#2d4a1e" stroke-width="2.0" stroke-linecap="round"/>
+  <!-- Arrowhead -->
+  <path d="M284,243 C290,248 297,251 290,260" stroke="#2d4a1e" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Building (center) — rectangle body + triangle roof + windows -->
+  <!-- Body -->
+  <path d="M304,310 L304,198 L404,198 L404,310" stroke="#2d4a1e" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Base line -->
+  <path d="M296,310 L412,310" stroke="#2d4a1e" stroke-width="2.0" stroke-linecap="round"/>
+  <!-- Roof triangle (slightly imperfect) -->
+  <path d="M294,200 L354,148 L414,202" stroke="#2d4a1e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Window 1 (left) -->
+  <path d="M318,222 L318,250 L342,250 L342,222 L318,222" stroke="#2d4a1e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Window 2 (right) -->
+  <path d="M364,222 L364,250 L388,250 L388,222 L364,222" stroke="#2d4a1e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Window 3 (center, lower) -->
+  <path d="M338,270 L338,310 L370,310 L370,270 L338,270" stroke="#2d4a1e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 3 checkmark circles (right side) -->
+  <!-- Circle 1 -->
+  <path d="M470,200 C470,188 479,180 490,182 C501,184 508,193 506,204 C504,215 494,221 484,218 C474,215 470,208 470,200"
+        stroke="#2d4a1e" stroke-width="2.0" stroke-linecap="round"/>
+  <path d="M480,200 L487,208 L501,190" stroke="#2d4a1e" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Circle 2 -->
+  <path d="M476,248 C476,236 485,228 496,230 C507,232 514,241 512,252 C510,263 500,269 490,266 C480,263 476,256 476,248"
+        stroke="#2d4a1e" stroke-width="2.0" stroke-linecap="round"/>
+  <path d="M486,248 L493,256 L507,238" stroke="#2d4a1e" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Circle 3 -->
+  <path d="M466,296 C466,284 475,276 486,278 C497,280 504,289 502,300 C500,311 490,317 480,314 C470,311 466,304 466,296"
+        stroke="#2d4a1e" stroke-width="2.0" stroke-linecap="round"/>
+  <path d="M476,296 L483,304 L497,286" stroke="#2d4a1e" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Connecting line from building to check circles -->
+  <path d="M410,242 C430,238 448,228 468,216" stroke="#2d4a1e" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M410,254 C432,254 450,252 474,252" stroke="#2d4a1e" stroke-width="1.4" stroke-linecap="round" opacity="0.5"/>
+  <path d="M410,282 C430,286 448,292 464,296" stroke="#2d4a1e" stroke-width="1.4" stroke-linecap="round" opacity="0.5"/>
+</svg>

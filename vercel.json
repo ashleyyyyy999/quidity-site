@@ -1,18 +1,61 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "headers": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "Referrer-Policy", "value": "no-referrer-when-downgrade" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" }
-      ]
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/careers",
+      "status": 301,
+      "headers": { "Location": "/story" }
+    },
+    {
+      "src": "/about",
+      "dest": "/about.html"
+    },
+    {
+      "src": "/story",
+      "dest": "/story.html"
+    },
+    {
+      "src": "/blog",
+      "dest": "/blog.html"
+    },
+    {
+      "src": "/university",
+      "dest": "/university.html"
+    },
+    {
+      "src": "/products",
+      "dest": "/products.html"
+    },
+    {
+      "src": "/quidity-for-founders",
+      "dest": "/quidity-for-founders.html"
+    },
+    {
+      "src": "/quidity-for-revops",
+      "dest": "/quidity-for-revops.html"
+    },
+    {
+      "src": "/quidity-for-marketers",
+      "dest": "/quidity-for-marketers.html"
+    },
+    {
+      "src": "/quidity-for-sales-leaders",
+      "dest": "/quidity-for-sales-leaders.html"
+    },
+    {
+      "src": "/quidity-for-sellers",
+      "dest": "/quidity-for-sellers.html"
+    },
+    {
+      "src": "/(.*)\\.html",
+      "dest": "/$1.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1.html"
     }
-  ],
-  "rewrites": [
-    { "source": "/", "destination": "/index.html" },
-    { "source": "/what-we-are", "destination": "/what-we-are.html" },
-    { "source": "/((?!.*\\.).*)", "destination": "/index.html" }
   ]
 }

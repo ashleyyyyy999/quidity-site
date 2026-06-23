@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+/* Fix logo clipping at all scroll/minified states */
+.am-logo,
+.am-logo.is-minified,
+.am-nav-content.is-minified .am-logo,
+.am-nav-content-left.is-minified .am-logo { height:auto !important; overflow:visible !important; min-height:0 !important; }
+.am-logo-link,
+.am-logo-link.is-minified { height:auto !important; overflow:visible !important; min-height:0 !important; }
+.am-nav-content-left,
+.am-nav-content-left.is-minified { overflow:visible !important; }
+</style>
+  <meta charset="utf-8"/>
+  <title>Page not found — Quidity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="The page you are looking for does not exist. Return to Quidity."/>
+  <link rel="icon" href="https://cdn.prod.website-files.com/6350808bc45bd0c902af10e6/669f3f4a7bcaa58acf5c534f_favicon.png" type="image/png"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --ink: #111111; --ink-50: rgba(17,17,17,0.5); --ink-10: rgba(17,17,17,0.08); --paper: #faf9f7; }
+    body { background: var(--paper); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif; min-height: 100vh; display: flex; flex-direction: column; }
+    .nav { position: fixed; top: 0; left: 0; right: 0; height: 60px; background: rgba(250,249,247,0.92); backdrop-filter: blur(16px); border-bottom: 1px solid var(--ink-10); display: flex; align-items: center; justify-content: space-between; padding: 0 48px; z-index: 100; }
+    .nav-logo img { height: 32px; display: block; }
+    .nav-cta { font-size: 13px; font-weight: 550; color: white; background: var(--ink); text-decoration: none; padding: 8px 20px; border-radius: 7px; }
+    main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 80px 48px; }
+    .content { max-width: 560px; text-align: center; }
+    .eyebrow { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--ink-50); font-weight: 500; margin-bottom: 24px; }
+    h1 { font-size: clamp(40px,6vw,64px); font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; margin-bottom: 20px; }
+    p { font-size: 17px; color: var(--ink-50); line-height: 1.65; margin-bottom: 40px; }
+    .actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .btn-primary { display: inline-block; padding: 13px 28px; background: var(--ink); color: white; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 550; transition: opacity 0.15s; }
+    .btn-primary:hover { opacity: 0.8; }
+    .btn-secondary { display: inline-block; padding: 13px 28px; border: 1.5px solid var(--ink-10); color: var(--ink); text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 450; transition: border-color 0.15s; }
+    .btn-secondary:hover { border-color: var(--ink); }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
+    .content { animation: fadeUp 0.7s ease 0.05s both; }
+  </style>
+</head>
+<body>
+<style id="qd-logo-fix">
+  .am-nav-content:not(.is-minified) .am-logo { height:auto !important; overflow:visible !important; }
+  .am-nav-content:not(.is-minified) .am-logo img { height:36px !important; width:auto !important; max-height:none !important; }
+</style>
+
+
+  <nav class="nav">
+    <a href="/" class="nav-logo"><img src="/quidity-logo.svg" alt="Quidity" height="32"/></a>
+    <a href="https://tovo-silk.vercel.app" target="_blank" class="nav-cta">Visit Tovo</a>
+  </nav>
+  <main>
+    <div class="content">
+      <p class="eyebrow">404</p>
+      <h1>Nothing here.</h1>
+      <p>This page does not exist. It may have moved, been removed, or never been. Head back and find what you need.</p>
+      <div class="actions">
+        <a href="/" class="btn-primary">Back to Quidity</a>
+        <a href="/products" class="btn-secondary">Our products</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

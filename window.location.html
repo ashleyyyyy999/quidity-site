@@ -4,6 +4,17 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
 <head>
+<style>
+/* Fix logo clipping at all scroll/minified states */
+.am-logo,
+.am-logo.is-minified,
+.am-nav-content.is-minified .am-logo,
+.am-nav-content-left.is-minified .am-logo { height:auto !important; overflow:visible !important; min-height:0 !important; }
+.am-logo-link,
+.am-logo-link.is-minified { height:auto !important; overflow:visible !important; min-height:0 !important; }
+.am-nav-content-left,
+.am-nav-content-left.is-minified { overflow:visible !important; }
+</style>
 <title>Attention Required! | Cloudflare</title>
 <meta charset="UTF-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -26,8 +37,32 @@
 </script>
 <!--<![endif]-->
 
+<link rel="preload" href="/quadrant.woff2" as="font" type="font/woff2" crossorigin/>
+<style>
+@font-face{font-family:'Quadrant';src:url('/quadrant.woff2') format('woff2');font-weight:400;font-display:swap;}
+.am-heading-56,.am-heading-44,.am-heading-36,.am-heading-28,.qd-hero-heading{font-family:'Quadrant',Georgia,'Times New Roman',serif!important;}
+h1.am-heading-56,h2.am-heading-44{font-weight:400;}
+</style>
+<style id="qd-blur-in">
+@keyframes qd-blur-in {
+  from { opacity:0; filter:blur(12px); transform:translateY(8px); }
+  to   { opacity:1; filter:blur(0);    transform:translateY(0); }
+}
+.am-hero-content-wrapper,
+.am-section:first-of-type h1,
+.am-section:first-of-type h2,
+.am-hero-heading,
+.am-heading-84-caps,
+.am-hero-paragraph { animation: qd-blur-in 0.9s cubic-bezier(0.16,1,0.3,1) 0.05s both; }
+</style>
 </head>
 <body>
+<style id="qd-logo-fix">
+  .am-nav-content:not(.is-minified) .am-logo { height:auto !important; overflow:visible !important; }
+  .am-nav-content:not(.is-minified) .am-logo img { height:36px !important; width:auto !important; max-height:none !important; }
+</style>
+
+
   <div id="cf-wrapper">
     <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
     <div id="cf-error-details" class="cf-error-details-wrapper">
