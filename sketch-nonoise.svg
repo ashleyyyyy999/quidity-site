@@ -1,49 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" fill="none">
-  <rect width="800" height="380" fill="#f8f5f0"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" fill="none" style="background:#f8f5f0;">
+  <rect width="680" height="420" fill="#f8f5f0"/>
 
-  <!-- Left panel: wobbly box — total chaos inside (3-year-old style) -->
-  <path d="M72 52 Q78 44 120 46 Q220 41 310 44 Q355 43 370 50 L374 62 Q378 180 375 310 Q376 330 370 336 L360 340 Q260 342 155 339 Q108 338 80 335 L73 325 Q67 240 69 150 Q68 95 72 52 Z"
-        stroke="#2d4a1e" stroke-width="5" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+  <!-- Content scaled to fit 680x420 (same as sketch-morning.svg) -->
+  <!-- Original 800x380 content scaled by 0.85 uniform, centered vertically (+49) -->
+  <g transform="translate(0 49) scale(0.85 0.85)">
 
-  <!-- Chaotic scribbles — like a toddler went to town -->
-  <g stroke="#2d4a1e" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M95 82 Q145 100 195 74 Q255 55 315 88 Q348 102 358 82" stroke-width="3.5"/>
-    <path d="M88 118 Q148 100 188 132 Q248 155 312 122 Q342 108 360 120" stroke-width="3.5"/>
-    <path d="M100 158 Q162 140 218 168 Q282 188 350 158" stroke-width="3"/>
-    <path d="M90 198 Q152 178 210 205 Q268 225 352 198" stroke-width="3"/>
-    <path d="M98 238 Q168 220 228 248 Q292 268 352 240" stroke-width="3"/>
-    <path d="M85 275 Q158 260 220 282 Q288 298 354 278" stroke-width="3"/>
-    <path d="M90 310 L355 308" stroke-width="2.5"/>
-    <!-- wild diagonal scratches -->
-    <path d="M108 64 Q180 195 272 328" stroke-width="3"/>
-    <path d="M158 60 Q228 178 315 318" stroke-width="3"/>
-    <path d="M355 62 Q272 185 145 318" stroke-width="3"/>
-    <path d="M318 68 Q240 180 112 308" stroke-width="3"/>
-    <!-- random little scribbles -->
-    <path d="M122 138 L158 122" stroke-width="2.5"/>
-    <path d="M198 105 L228 120" stroke-width="2.5"/>
-    <path d="M268 150 L298 135" stroke-width="2.5"/>
-    <path d="M135 228 L165 214" stroke-width="2.5"/>
-    <path d="M255 200 L285 218" stroke-width="2.5"/>
-    <path d="M172 268 L202 252" stroke-width="2.5"/>
-    <path d="M308 248 L335 262" stroke-width="2.5"/>
-    <!-- dots like a kid would add -->
-    <circle cx="148" cy="178" r="5" fill="#2d4a1e"/>
-    <circle cx="282" cy="242" r="4" fill="#2d4a1e"/>
-    <circle cx="212" cy="132" r="4" fill="#2d4a1e"/>
-    <circle cx="328" cy="172" r="5" fill="#2d4a1e"/>
-    <circle cx="175" cy="298" r="4" fill="#2d4a1e"/>
-    <circle cx="320" cy="105" r="4" fill="#2d4a1e"/>
+    <!-- Left panel: wobbly box — total chaos inside -->
+    <path d="M72 52 Q78 44 120 46 Q220 41 310 44 Q355 43 370 50 L374 62 Q378 180 375 310 Q376 330 370 336 L360 340 Q260 342 155 339 Q108 338 80 335 L73 325 Q67 240 69 150 Q68 95 72 52 Z"
+          stroke="#2d4a1e" stroke-width="5" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+
+    <!-- Chaotic scribbles -->
+    <g stroke="#2d4a1e" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M95 82 Q145 100 195 74 Q255 55 315 88 Q348 102 358 82" stroke-width="3.5"/>
+      <path d="M88 118 Q148 100 188 132 Q248 155 312 122 Q342 108 360 120" stroke-width="3.5"/>
+      <path d="M100 158 Q162 140 218 168 Q282 188 350 158" stroke-width="3"/>
+      <path d="M90 198 Q152 178 210 205 Q268 225 352 198" stroke-width="3"/>
+      <path d="M98 238 Q168 220 228 248 Q292 268 352 240" stroke-width="3"/>
+      <path d="M85 275 Q158 260 220 282 Q288 298 354 278" stroke-width="3"/>
+      <path d="M90 310 L355 308" stroke-width="2.5"/>
+      <path d="M108 64 Q180 195 272 328" stroke-width="3"/>
+      <path d="M158 60 Q228 178 315 318" stroke-width="3"/>
+      <path d="M355 62 Q272 185 145 318" stroke-width="3"/>
+      <path d="M318 68 Q240 180 112 308" stroke-width="3"/>
+      <path d="M122 138 L158 122" stroke-width="2.5"/>
+      <path d="M198 105 L228 120" stroke-width="2.5"/>
+      <path d="M268 150 L298 135" stroke-width="2.5"/>
+      <path d="M135 228 L165 214" stroke-width="2.5"/>
+      <path d="M255 200 L285 218" stroke-width="2.5"/>
+      <path d="M172 268 L202 252" stroke-width="2.5"/>
+      <path d="M308 248 L335 262" stroke-width="2.5"/>
+      <circle cx="148" cy="178" r="5" fill="#2d4a1e"/>
+      <circle cx="282" cy="242" r="4" fill="#2d4a1e"/>
+      <circle cx="212" cy="132" r="4" fill="#2d4a1e"/>
+      <circle cx="328" cy="172" r="5" fill="#2d4a1e"/>
+      <circle cx="175" cy="298" r="4" fill="#2d4a1e"/>
+      <circle cx="320" cy="105" r="4" fill="#2d4a1e"/>
+    </g>
+
+    <!-- Right panel: wobbly box — ONE line, done -->
+    <path d="M434 50 Q445 43 495 45 Q588 42 705 46 L729 52 Q733 125 732 242 Q733 312 729 334 L722 338 Q618 342 518 339 Q465 338 438 335 L431 328 Q428 248 429 145 Q428 92 434 50 Z"
+          stroke="#2d4a1e" stroke-width="5" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+
+    <!-- One single rising line -->
+    <path d="M462 298 Q515 258 558 202 Q598 150 662 108 Q685 95 715 80"
+          stroke="#2d4a1e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Big dot at the end -->
+    <circle cx="715" cy="80" r="11" fill="#2d4a1e"/>
   </g>
-
-  <!-- Right panel: wobbly box — ONE line, done -->
-  <path d="M434 50 Q445 43 495 45 Q588 42 705 46 L729 52 Q733 125 732 242 Q733 312 729 334 L722 338 Q618 342 518 339 Q465 338 438 335 L431 328 Q428 248 429 145 Q428 92 434 50 Z"
-        stroke="#2d4a1e" stroke-width="5" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
-
-  <!-- One single rising line — this is it, nothing else -->
-  <path d="M462 298 Q515 258 558 202 Q598 150 662 108 Q685 95 715 80"
-        stroke="#2d4a1e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Big dot at the end -->
-  <circle cx="715" cy="80" r="11" fill="#2d4a1e"/>
 </svg>
