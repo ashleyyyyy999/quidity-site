@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="140" height="36" viewBox="0 0 140 36">
   <rect width="36" height="36" rx="8" fill="white"/>
-  <circle cx="18" cy="18" r="10.5" fill="#111111"/>
-  <text x="48" y="26" font-family="-apple-system,BlinkMacSystemFont,Inter,sans-serif" font-size="19" font-weight="700" fill="white" letter-spacing="-0.5">Quidity</text>
+  <circle cx="18" cy="18" r="10" fill="none" stroke="#111111" stroke-width="3"/>
+  <line x1="24.5" y1="24.5" x2="30" y2="30" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <text x="46" y="25.5" font-family="-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif" font-size="18" font-weight="700" fill="white" letter-spacing="-0.3">Quidity</text>
 </svg>
