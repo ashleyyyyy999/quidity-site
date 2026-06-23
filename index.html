@@ -1866,33 +1866,52 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 })();
-</script></div><div class="am-form-submit-wrapper"><div class="am-nav-btn-wrapper"><input type="submit" data-wait="Please wait..." data-btn-color-mode="light" class="am-nav-btn business-only-submit-button is-full-size-mobile w-button" value="Get in touch"/><div class="am-nav-btn-rocket"><div class="am-paragraph-20">🚀</div></div></div></div></form><div class="am-form-success-message w-form-done"><div class="div-block-161"><div class="am-paragraph-16 am-opacity-60 am-is-line-height-100">Thank you!</div></div></div><div class="am-form-error-message w-form-fail"><div class="hide">Oops! Something went wrong while submitting the form.</div></div></div><div class="am-social-proof-stripe is-dark"><div class="am-social-proof-stars"><a rel="noopener" href="https://www.g2.com/products/quidity/reviews#reviews" target="_blank" class="am-social-proof-link w-inline-block"><img src="https://cdn.prod.website-files.com/6350808bc45bd0c902af10e6/669e737879aa8335b500699a_g2-starts.svg" loading="eager" alt="G2 reviews stars" class="am-image"/></a></div><div class="am-vertical-divider"></div></div></div></div></div><div class="am-demo-video-border" style="opacity:1;transform:none;display:block;"><div class="am-demo-video-wrapper is-home"><div class="am-demo-video-code w-embed">
-<div style="position:relative;width:100%;border-radius:12px;overflow:hidden;" id="qd-main-vid-wrap">
-  <video id="qd-main-vid" autoplay muted loop playsinline
-    style="width:100%;display:block;border-radius:12px;object-fit:contain;background:#0a0a0a;">
-    <source src="/quidity-hero.mp4" type="video/mp4">
-  </video>
-  <div id="qd-main-overlay"
-    style="position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,0) 60%,rgba(0,0,0,0.5) 100%);pointer-events:none;opacity:0;"></div>
+</script></div><div class="am-form-submit-wrapper"><div class="am-nav-btn-wrapper"><input type="submit" data-wait="Please wait..." data-btn-color-mode="light" class="am-nav-btn business-only-submit-button is-full-size-mobile w-button" value="Get in touch"/><div class="am-nav-btn-rocket"><div class="am-paragraph-20">🚀</div></div></div></div></form><div class="am-form-success-message w-form-done"><div class="div-block-161"><div class="am-paragraph-16 am-opacity-60 am-is-line-height-100">Thank you!</div></div></div><div class="am-form-error-message w-form-fail"><div class="hide">Oops! Something went wrong while submitting the form.</div></div></div><div class="am-social-proof-stripe is-dark"><div class="am-social-proof-stars"><a rel="noopener" href="https://www.g2.com/products/quidity/reviews#reviews" target="_blank" class="am-social-proof-link w-inline-block"><img src="https://cdn.prod.website-files.com/6350808bc45bd0c902af10e6/669e737879aa8335b500699a_g2-starts.svg" loading="eager" alt="G2 reviews stars" class="am-image"/></a></div><div class="am-vertical-divider"></div></div></div></div></div><div id="qd-scroll-hero" style="position:relative;height:240vh;">
+<div id="qd-scroll-sticky" style="position:sticky;top:0;height:100vh;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#f8f5f0;">
+  <div id="qd-vid-shell" style="position:relative;width:72%;border-radius:16px;overflow:hidden;transition:width 0.05s linear,border-radius 0.05s linear;">
+    <video id="qd-sv" autoplay muted loop playsinline
+      style="width:100%;height:68vh;object-fit:cover;display:block;background:#0a0a0a;">
+      <source src="/quidity-hero.mp4" type="video/mp4">
+    </video>
+    <div id="qd-sv-dark" style="position:absolute;inset:0;background:black;opacity:0;pointer-events:none;"></div>
+    <div id="qd-sv-text" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;">
+      <span id="qd-sv-tagline" style="font-family:'Quadrant',Georgia,'Times New Roman',serif;color:white;font-size:clamp(1.8rem,3.6vw,4.2rem);font-weight:400;text-align:center;letter-spacing:-0.02em;line-height:1.15;max-width:18ch;display:block;opacity:0;filter:blur(44px);">The essence of what works.</span>
+    </div>
+  </div>
+</div>
 </div>
 <script>
 (function(){
-  var vid=document.getElementById('qd-main-vid');
-  var ov=document.getElementById('qd-main-overlay');
-  var wrap=document.getElementById('qd-main-vid-wrap');
-  if(!vid||!ov||!wrap)return;
-  function tick(){
-    var r=wrap.getBoundingClientRect(),vh=window.innerHeight||document.documentElement.clientHeight;
-    var p=Math.max(0,Math.min(1,-r.top/(r.height*0.6)));
-    ov.style.opacity=p;
-    vid.style.filter='blur('+p*8+'px)';
-    vid.style.transform='scale('+(1-p*0.04)+')';
+  var sec=document.getElementById('qd-scroll-hero');
+  var shell=document.getElementById('qd-vid-shell');
+  var vid=document.getElementById('qd-sv');
+  var dark=document.getElementById('qd-sv-dark');
+  var tag=document.getElementById('qd-sv-tagline');
+  if(!sec||!shell||!vid)return;
+  function lerp(a,b,t){return a+(b-a)*t;}
+  function clamp(v,lo,hi){return v<lo?lo:v>hi?hi:v;}
+  function raf(){
+    var rect=sec.getBoundingClientRect();
+    var scrollable=sec.offsetHeight-window.innerHeight;
+    var p=clamp(scrollable>0?-rect.top/scrollable:0,0,1);
+    // Width: 72% -> 100%
+    shell.style.width=lerp(72,100,p)+'%';
+    // Border radius: 16px -> 0
+    shell.style.borderRadius=lerp(16,0,p)+'px';
+    // Video blur: 0 -> 11px
+    vid.style.filter='blur('+lerp(0,11,p)+'px)';
+    // Dark overlay: 0 -> 0.64
+    dark.style.opacity=lerp(0,0.64,p);
+    // Text: starts at p=0.28, fully clear at p=1
+    var tp=clamp((p-0.28)/0.72,0,1);
+    tag.style.opacity=tp;
+    tag.style.filter='blur('+lerp(44,0,tp)+'px)';
   }
-  window.addEventListener('scroll',tick,{passive:true});
-  tick();
+  window.addEventListener('scroll',raf,{passive:true});
+  window.addEventListener('resize',raf,{passive:true});
+  raf();
 })();
-</script>
-</div></div></div></div></div><div class="am-shader-container"><img src="https://cdn.prod.website-files.com/6350808bc45bd0c902af10e6/66e47654be5d3e3979ea567e_rocket-illustration-updated.avif" loading="eager" width="388" height="Auto" alt="" class="am-rocket-illustration"/><div data-bg-color="#E8400D" data-color-1="232,64,13" data-color-2="255,238,216" data-color-3="208,178,255" class="am-shader-code is-hero w-embed w-script"><!--<script type="text/javascript" src="https://3dfsj2-5000.csb.app/script.js"></script>-->
+</script></div></div><div class="am-shader-container"><img src="https://cdn.prod.website-files.com/6350808bc45bd0c902af10e6/66e47654be5d3e3979ea567e_rocket-illustration-updated.avif" loading="eager" width="388" height="Auto" alt="" class="am-rocket-illustration"/><div data-bg-color="#E8400D" data-color-1="232,64,13" data-color-2="255,238,216" data-color-3="208,178,255" class="am-shader-code is-hero w-embed w-script"><!--<script type="text/javascript" src="https://3dfsj2-5000.csb.app/script.js"></script>-->
 
 <style>
   .shader-canvas {
